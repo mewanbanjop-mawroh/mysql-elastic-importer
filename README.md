@@ -7,7 +7,9 @@
 3. Change your configurations in the config.js file  
 
 ## Example Config
-``` var config = {
+
+```javascript
+var config = {
   
   dbConfig: {
     connectionPool: 100,
@@ -27,5 +29,6 @@
   index: 'products',
   type: 'product',
 
-}; ```
+}; 
+```
 
