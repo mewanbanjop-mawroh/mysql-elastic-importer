@@ -15,7 +15,7 @@ var config = {
   /**
    * Elastic search configuration
    */
-  elasticConfic: {
+  elasticConfig: {
     host: 'localhost:9200',//elastic search host
     log: 'trace'
   },
