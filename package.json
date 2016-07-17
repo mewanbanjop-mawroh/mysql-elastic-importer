@@ -1,0 +1,16 @@
+{
+  "name": "mysql-elastic-importer",
+  "version": "1.0.0",
+  "description": "A simple Node application to migrate mysql data to elastic search document.",
+  "main": "bulkInsert.js",
+  "scripts": {
+    "start": "node bulkInsert.js"
+  },
+  "author": "Mewanbanjop Mawroh",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.10.2",
+    "elasticsearch": "^11.0.1",
+    "promise": "^7.1.1"
+  }
+}
