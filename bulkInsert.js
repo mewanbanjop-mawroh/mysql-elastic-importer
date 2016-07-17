@@ -52,7 +52,7 @@ function bulkInsert(limit, offset) {
                 console.log(resp);
                 console.log('Batch Bulk Insert Complete :' + batchCount);
                 batchCount++;
-                if (rowCount <= limit*2) {
+                if (rowCount <= totalNumberOfRows) {
                     offset += limit;
                     bulkInsert(limit, offset);
                 } else {
